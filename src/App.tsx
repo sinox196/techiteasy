@@ -2,6 +2,7 @@ import { Navbar } from './components/Navbar';
 import { Hero } from './sections/Hero';
 import { ComplexToSimple } from './sections/ComplexToSimple';
 import { Products } from './sections/Products';
+import { Pricing } from './sections/Pricing';
 import { DigitalFlow } from './sections/DigitalFlow';
 import { Automation } from './sections/Automation';
 import { BentoFeatures } from './sections/BentoFeatures';
@@ -20,6 +21,7 @@ function App() {
         <Hero />
         <ComplexToSimple />
         <Products />
+        <Pricing />
         <DigitalFlow />
         <Automation />
         <BentoFeatures />

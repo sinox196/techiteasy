@@ -91,6 +91,17 @@ export function Hero() {
             Demander une démo
           </MagneticButton>
         </motion.div>
+
+        <motion.button
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.72 }}
+          onClick={() => scrollToId('tarifs')}
+          className="group mt-5 inline-flex items-center gap-1.5 text-[13.5px] font-bold text-navy-deep/60 underline decoration-navy-deep/20 underline-offset-4 transition-colors hover:text-navy-deep hover:decoration-green"
+        >
+          Essayer gratuitement
+          <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
+        </motion.button>
       </div>
 
       <motion.div
